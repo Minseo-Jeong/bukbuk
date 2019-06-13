@@ -8,9 +8,11 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center"
         android:text="맞은갯수"
+        android:id="@+id/sum"
         android:textSize="50sp"/>
 
     <ImageView
+        android:id="@+id/animalImage"
         android:layout_margin="30dp"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
@@ -18,16 +20,18 @@
         android:src="@drawable/turtle"
         android:visibility="invisible"/>
     <Button
-
+        android:id="@+id/btnQuiz"
         android:layout_gravity="center"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="소리 듣기"/>
     <EditText
+        android:id="@+id/editText"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"/>
     <Button
+        android:id="@+id/btnCheck"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="정답 확인"
